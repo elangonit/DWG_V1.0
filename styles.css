@@ -1,0 +1,64 @@
+/* Reset some default styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the header */
+header {
+    background-color: pink;
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: purple;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* Highlight the current page in navigation */
+nav a.current {
+    color: blue;
+}
+
+/* Style the main content area */
+main {
+    padding: 20px;
+}
+
+/* Your CSS styles for team member cards */
+.team-member {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+.team-member img {
+    max-width: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.team-member h3 {
+    font-size: 20px;
+}
+
+.team-member p {
+    margin: 5px 0;
+}
+
+/* Add more CSS styles as needed */
