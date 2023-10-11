@@ -5,7 +5,7 @@ body, h1, h2, h3, p {
 
 /* Set a background color and font for the whole page */
 body {
-    background-color: #9e7aff; /* Child-friendly yellow background */
+    background-color: #7472ff; /* Child-friendly yellow background */
     font-family: 'Comic Sans MS', cursive, sans-serif; /* Playful font */
     display: flex;
     flex-direction: column;
